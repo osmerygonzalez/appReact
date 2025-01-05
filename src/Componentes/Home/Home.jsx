@@ -1,5 +1,5 @@
 import React from 'react';
-import "./home.css"
+import "./Home.css"
 import vegetalesImage from '../assets/gourmet.jpg'; // Asegúrate de que la ruta sea correcta
 
 const Home = ({ setSection, setShowModal }) => {
