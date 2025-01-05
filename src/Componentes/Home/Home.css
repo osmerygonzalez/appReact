@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('../assets/gourmet.jpg');
+    background-image: url('../assets/vegetales.jpg');
     background-size: cover; /* Asegura que la imagen cubra todo el fondo */
     background-position: center center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat;
