@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
-import MainApp from "./App.jsx"; // Asegúrate de que esta ruta sea correcta
+import MainApp from "./app.jsx"; // Asegúrate de que esta ruta sea correcta
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
