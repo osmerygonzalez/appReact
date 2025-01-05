@@ -1,0 +1,14 @@
+.historial {
+    padding: 20px;
+    background-color: #f4f4f4;
+    overflow-y: auto; /* Habilita el scroll vertical */
+    max-height: calc(100vh - 80px); /* Deja espacio para el navbar */
+    box-sizing: border-box;
+}
+
+/* Asegúrate de que el scroll sea visible en pantallas pequeñas */
+@media (max-width: 768px) {
+    .historial {
+        max-height: calc(100vh - 120px); /* Ajuste para el navbar más pequeño en móviles */
+    }
+}

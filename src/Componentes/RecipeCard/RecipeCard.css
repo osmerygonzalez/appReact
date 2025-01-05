@@ -1,0 +1,28 @@
+.recipe-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h3 {
+    color: #388e3c;
+}
+
+.recipe-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.recipe-card button {
+    background-color: #ff5722; /* Naranja */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.recipe-card button:hover {
+    background-color: #f4511e;
+}

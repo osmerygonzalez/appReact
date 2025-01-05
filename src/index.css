@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
+.main-content {
+    height: calc(100vh - 60px); /* Ajusta el contenido principal */
+    overflow-y: auto; /* Habilita el scroll */
+}
+
+h1, h2 {
+    color: #388e3c; /* Verde vegetales */
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
