@@ -1,5 +1,4 @@
 import React from 'react';
-import './RecipeSummary.css';
 
 const RecipeSummary = ({ ingredients }) => {
     const calculateNutritionalScore = () => {
